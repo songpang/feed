@@ -1,4 +1,15 @@
 # Redis
+
+> TODO
+> Redis를 어떻게 설명할 것인가?  
+> Redis를 data store로 쓰는 경우 리소스가 너무 비싸지 않은가? 그럼에도 불구하고 쓰는 서비스가 있는가? 있다면 왜쓰는가?  
+> Redis와 Memcached를 비교하고 어떤 이유때문에 Redis가 점유율 경쟁에서 이겼는가?  
+> Redis를 썼을 경우, 쓰지 않았을 경우가 있다면 어떤 .강력하고. .명확한. 이점때문에 사용하는가?  
+> 이렇게 좋은 Redis를 사용하지 말아야 하는 경우가 있을까?  
+> 강연 내용 마저 정리  
+
+
+
 ### Single Threaded
 1. Packet이 processInputBuffer에서 command로 완성되면 처리
 2. processCommand가 완료되기 전까지는 다음 command가 실행될 수 없음
